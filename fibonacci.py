@@ -5,7 +5,7 @@ def fibonacci(n):
     elif n==1:
         return 1
     else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return (fibonacci(n-1)**2) + fibonacci(n-2)
 
 
 n = int(input("input size of fibonacci: "))
