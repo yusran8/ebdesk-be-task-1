@@ -4,6 +4,8 @@ def fibonacci(n):
         return 0
     elif n==1:
         return 1
+    elif n<len(fib_seq):
+        return fib_seq[n]
     else:
         return (fibonacci(n-1)**2) + fibonacci(n-2)
 
